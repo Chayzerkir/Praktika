@@ -1,5 +1,4 @@
-﻿
-class Program
+﻿class Program
 {
     static void Main()
     {
@@ -10,7 +9,7 @@ class Program
         Console.WriteLine(RandNum);
         while (RandNum != num)
         {
-            if (num> RandNum)
+            if (num > RandNum)
             {
                 Console.WriteLine("Нет! Загаданное число меньше!");
             }
