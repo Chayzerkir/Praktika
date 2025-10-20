@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6B36B8E5-90B6-45FD-8794-F329B715BC79}</ProjectGuid>
+    <ProjectGuid>{880127D6-5146-4106-A43B-7EDD8A0BD2F9}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>_5._1._5</RootNamespace>
-    <AssemblyName>5.1.5</AssemblyName>
+    <RootNamespace>app</RootNamespace>
+    <AssemblyName>app</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>

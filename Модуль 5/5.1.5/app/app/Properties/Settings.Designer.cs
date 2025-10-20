@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace _5._1._5.Properties
+namespace app.Properties
 {
 
 

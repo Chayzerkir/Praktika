@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace _5._1._5
+namespace app
 {
     /// <summary>
     /// Логика взаимодействия для App.xaml
