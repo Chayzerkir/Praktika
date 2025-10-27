@@ -8,14 +8,14 @@ namespace _6._1
 {
     internal static class Program
     {
-        /// <summary>
-        /// Главная точка входа для приложения.
-        /// </summary>
         [STAThread]
         static void Main()
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+
+            DatabaseHelper.InitializeDatabase();
+
             Application.Run(new Form1());
         }
     }
