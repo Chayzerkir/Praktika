@@ -15,7 +15,7 @@ using System.Windows.Shapes;
 
 namespace _8._1
 {
-    public partial class MainWindow : Window
+    public partial class MainWindow : App, App, App
     {
         private double currentNumber = 0;
         private double previousNumber = 0;
@@ -25,6 +25,14 @@ namespace _8._1
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        public App App
+        {
+            get => default;
+            set
+            {
+            }
         }
 
         private void Calculate()
